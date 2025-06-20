@@ -1,4 +1,4 @@
-## Elasticsearch
+## MiniMax Kit
 
 - **Author:** [quicksandzn](https://github.com/quicksandznzn)
 - **Github:** https://github.com/quicksandznzn/dify-plugin-minimax-kit

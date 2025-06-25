@@ -6,8 +6,8 @@ label:
   en_US: MiniMax Kit
   zh_Hans: MiniMax 工具箱
 description:
-  en_US: MiniMax Kit
-  zh_Hans: MiniMax 工具箱
+  en_US: A comprehensive toolkit integrating MiniMax's AI capabilities, including image generation, music generation, voice cloning, and video generation. Easily create and manage multimedia content with state-of-the-art generative models.
+  zh_Hans: 集成 MiniMax 多种 AI 能力的工具箱，支持图片生成、音乐生成、声音克隆和视频生成。助您便捷高效地创作和管理多媒体内容，体验先进的生成式模型。
 icon: icon.svg
 resource:
   memory: 268435456

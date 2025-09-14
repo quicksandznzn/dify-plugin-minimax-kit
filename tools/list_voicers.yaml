@@ -1,0 +1,46 @@
+identity:
+  name: list_voicers
+  author: langgenius
+  label:
+    en_US: List all voicers
+    zh_Hans: 列出发音人
+description:
+  human:
+    en_US: List all voicers
+    zh_Hans: 列出发音人
+  llm: A tool to list all voicers
+
+parameters:
+  - name: voice_type
+    type: select
+    required: true
+    default: all
+    options:
+      - value: all
+        label:
+          en_US: All
+          zh_Hans: 所有
+      - value: system
+        label:
+          en_US: System
+          zh_Hans: 系统音色
+      - value: voice_cloning
+        label:
+          en_US: Voice cloning voicers
+          zh_Hans: 快速复刻的音色
+      - value: voice_generation
+        label:
+          en_US: Text generation voicers
+          zh_Hans: 文生音色接口生成的音色
+    label:
+      en_US: Voicer type
+      zh_Hans: 音色类型
+    human_description:
+      en_US: Voicer type
+      zh_Hans: 音色类型
+    llm_description: Voicer type to list.
+    form: form
+
+extra:
+  python:
+    source: tools/list_voicers.py

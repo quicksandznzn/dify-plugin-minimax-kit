@@ -2,7 +2,7 @@
 
 - **Author:** [quicksandzn](https://github.com/quicksandznzn)
 - **Github:** https://github.com/quicksandznzn/dify-plugin-minimax-kit
-- **Version:** 0.0.1
+- **Version:** 0.0.2
 - **Type:** tool
 
 ### Description

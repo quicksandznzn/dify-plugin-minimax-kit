@@ -163,3 +163,10 @@ class MiniMaxBaseTool:
             params={"GroupId": self.group_id, "purpose": purpose},
         )
         return response
+    def get_voice(self, voice_type: str) -> requests.Response:
+        response = self._request(
+            "POST",
+            f"{API_ENDPOINT}/get_voice",
+            data={"voice_type": voice_type},
+        )
+        return response

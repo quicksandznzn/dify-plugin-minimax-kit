@@ -40,6 +40,7 @@ tools:
   - tools/music_generation.yaml
   - tools/voice_clone.yaml
   - tools/video_generation.yaml
+  - tools/list_voicers.yaml
 extra:
   python:
     source: provider/minimax.py
